@@ -189,42 +189,7 @@ a.button {
 flex-direction: column;
   }
 
-  .picture h1{
-    width: 70%;
-  }
-
-  #sevengoals{
-    justify-content: flex-start;
-  }
-
-  #about{
-    flex-direction: column;
-  }
-
-  .about-text{
-    width: 70%;
-    justify-content: center;
-  }
-
-  .foundation{
-    flex-direction: column;
-    width: 70%;
-  }
-
-  .foundation h1{
-    font-size: 2rem;
-  }
-
-  .cta{
-    flex-direction: column-reverse;
-  }
-
-  .cta h1{
-    font-size: 2rem;
-  }
-
-  #contact{
-    flex-direction: column;
-    width: 100vw;
+  h1{
+    font-size: 1rem;
   }
 }
