@@ -1,5 +1,24 @@
 *{
   margin: 0;
+  font-family: GTB;
+}
+
+h1{
+  font-family: GTB, sans-serif;
+}
+
+p{
+  font-family: GTBlite;
+}
+
+@font-face {
+  font-family: GTB;
+  src: url(fonts/galderglynn-titling.rg-regular.otf);
+}
+
+@font-face {
+  font-family: GTBlite;
+  src: url(fonts/galderglynn-titling.lt-regular.otf);
 }
 
 html {
@@ -164,7 +183,6 @@ a.button {
     display: flex;
     gap: 2px;
     flex-direction: column;
-    margin-left: 10%;
     align-items: center;
   }
 
@@ -186,11 +204,11 @@ a.button {
   }
 
   .picture{
-flex-direction: column;
+    flex-direction: column;
   }
 
   .picture h1{
-    width: 70%;
+    width: 80%;
   }
 
   #sevengoals{
@@ -202,13 +220,19 @@ flex-direction: column;
   }
 
   .about-text{
-    width: 70%;
+    width: 90%;
     justify-content: center;
   }
 
+.about-text p{
+font-size: 1.5rem;
+margin-left: 10px;
+}
+
   .foundation{
     flex-direction: column;
-    width: 70%;
+    width: 90%;
+    gap: 16px;
   }
 
   .foundation h1{
@@ -217,14 +241,19 @@ flex-direction: column;
 
   .cta{
     flex-direction: column-reverse;
+    height: 30vh;
   }
 
   .cta h1{
     font-size: 2rem;
+    width: 80%;
   }
 
   #contact{
     flex-direction: column;
-    width: 100vw;
+  }
+
+  .reachout p{
+    font-size: 1rem;
   }
 }
