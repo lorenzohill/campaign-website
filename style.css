@@ -7,8 +7,20 @@ h1{
   font-family: GTB, sans-serif;
 }
 
+.show{
+  display: flex !important;
+}
+
+.menu-div{
+  display: none;
+}
+
 p{
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+  display: none;
 }
 
 @font-face {
@@ -179,15 +191,41 @@ a.button {
 
 @media screen and (max-width: 900px) {
 
+  .hero{
+    background-image: none;
+  }
+
   nav{
-    display: flex;
+    /* margin-bottom: 16px; */
+    padding-bottom: 16px;
+    display: none;
     gap: 2px;
     flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(rgb(9, 148, 247),#cb3b3b);
+  }
+
+  #menu {
+    margin-top: 16px;
+    display: block; 
+    width: 32px;
+  }
+
+  .menu-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
 
   .logo{
+    background-image: url(img/UPPEr2.png);
+    background-size: 100% 100%;
     flex-direction: column;
+  }
+
+  .logo button{
+    margin-bottom: 16px;
   }
 
   .logo img{
@@ -205,10 +243,17 @@ a.button {
 
   .picture{
     flex-direction: column;
+    background-color: #202020;
+  }
+
+  .picture img{
+    height: 20vh;
+    width: auto;
   }
 
   .picture h1{
     width: 80%;
+    text-align: center;
   }
 
   #sevengoals img{
