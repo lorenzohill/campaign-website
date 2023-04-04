@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #101010;
+}
+
+.hero{
+  background-image: url(img/UPPEr2.png);
+  background-size: 100% 100%;
+}
+
+p{
+  color: #f5f5f5;
+  font-size: 1.5rem;
+}
+
+
+.donate{
+  width: 400px;
+  height: 80px;
+}
+
+button{
+  border: 0px;
+  background-color: #b81010;
+  height: 3rem;
+  width: 10rem;
+  border-radius: 3rem;
+  color: #f5f5f5;
+}
+
+button:hover{
+  background-color: #a40f0f;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.picture{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.picture h1{
+  font-size: 2rem;
+}
+
+h1{
+  color: #f5f5f5;
+  font-size: 3rem;
+}
+
+h2{
+  color: #f5f5f5;
+}
+
+#sevengoals{
+  margin: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #101010;
+}
+
+.sevengoals img{
+  border-radius: 2rem;
+  height: 100vh;
+
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  gap:16px;
+}
+
+nav button{
+  margin-top: 10px;
+}
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}
+
+#about{
+  display: flex;
+  justify-content: space-around;
+  background-color: #202020;
+}
+
+.about-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.foundation{
+  display: flex;
+  justify-content: space-around;
+  margin: 16px;
+  align-items: center;
+}
+
+.cta{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+  background-image: url(img/lower.png);
+  background-size: 100% 100%;
+}
+
+#contact{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  align-items: center;
+  background-color: #202020;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#email:hover{
+  color: rgb(202, 98, 98);
+  cursor: pointer;
+}
+
+.reachout{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.socials{
+  margin: 16px;
+  display: flex;
+  justify-content: space-evenly;
+}
