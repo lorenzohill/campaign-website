@@ -1,25 +1,29 @@
-*{
+/* Reset Margins */
+
+* {
   margin: 0;
   font-family: GTB;
 }
 
-h1{
+h1 {
   font-family: GTB, sans-serif;
 }
 
-.show{
+/* Show Menu */
+
+.show {
   display: flex !important;
 }
 
-.menu-div{
+.menu-div {
   display: none;
 }
 
-p{
+p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.menu{
+.menu {
   display: none;
 }
 
@@ -37,39 +41,41 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   background-color: #101010;
 }
 
-.hero{
+/* Hero backround image */
+
+.hero {
   background-image: url(img/UPPEr2.png);
   background-size: 100% 100%;
 }
 
-p{
+p {
   color: #f5f5f5;
   font-size: 1.5rem;
 }
 
+/* Donate Button */
 
-.donate{
+.donate {
   width: 400px;
   height: 80px;
   font-size: 3rem;
   display: none;
 }
 
-button{
+button {
   border: 0px;
   background-color: #b81010;
   height: 3rem;
   width: 10rem;
   border-radius: 3rem;
   color: #f5f5f5;
-
 }
 
-.picture-combine{
+.picture-combine {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,42 +84,42 @@ button{
   bottom: 96px;
 }
 
-.socials img:hover{
+.socials img:hover {
   filter: invert(50%);
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   background-color: #a40f0f;
   box-shadow: 0px 0px black;
 }
 
-.logo{
+.logo {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.picture{
+.picture {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.picture h1{
+.picture h1 {
   font-size: 2rem;
 }
 
-h1{
+h1 {
   color: #f5f5f5;
   font-size: 3rem;
 }
 
-h2{
+h2 {
   color: #f5f5f5;
 }
 
-#sevengoals{
+#sevengoals {
   margin: 16px;
   display: flex;
   align-items: center;
@@ -121,38 +127,28 @@ h2{
   background-color: #101010;
 }
 
-.sevengoals img{
+.sevengoals img {
   border-radius: 2rem;
   height: 100vh;
-
 }
 
-nav{
+nav {
   display: flex;
   justify-content: center;
-  gap:16px;
+  gap: 16px;
 }
 
-nav button{
+nav button {
   margin-top: 10px;
 }
 
-a.button {
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-
-  text-decoration: none;
-  color: initial;
-}
-
-#about{
+#about {
   display: flex;
   justify-content: space-around;
   background-color: #202020;
 }
 
-.about-text{
+.about-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -160,15 +156,14 @@ a.button {
   width: 40%;
 }
 
-.foundation{
+.foundation {
   display: flex;
   justify-content: space-around;
   margin: 16px;
   align-items: center;
-
 }
 
-.cta{
+.cta {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
@@ -178,198 +173,193 @@ a.button {
   background-size: 100% 100%;
 }
 
-#contact{
+#contact {
   padding-top: 16px;
   padding-bottom: 16px;
   align-items: center;
   background-color: #202020;
   display: flex;
   justify-content: space-around;
-
 }
 
-#email:hover{
+#email:hover {
   color: rgb(202, 98, 98);
   cursor: pointer;
 }
 
-.reachout{
+.reachout {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.socials{
+.socials {
   margin: 16px;
   display: flex;
   justify-content: space-evenly;
 }
 
-.donation{
+.donation {
   height: 50vh;
   width: 40vw;
   border-radius: 2rem;
 }
 
-.foundation-text{
+.foundation-text {
   display: flex;
   flex-direction: column;
   width: 75%;
   gap: 1rem;
 }
 
-/* Media Query */
+/* Media Query for mobile devices */
 
 @media screen and (max-width: 1000px) {
-
-  .hero{
+  .hero {
     background-image: none;
   }
 
-  button{
+  button {
     box-shadow: 0px 0px black;
   }
 
-.donate{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}  
+  .donate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-.picture-combine{
-  position: static;
-}
+  .picture-combine {
+    position: static;
+  }
 
-iframe{
-  display: none;
-}
+  iframe {
+    display: none;
+  }
 
-  nav{
-    /* margin-bottom: 16px; */
+  nav {
     padding-bottom: 16px;
     display: none;
     gap: 2px;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(rgb(9, 148, 247),#cb3b3b);
+    background-image: linear-gradient(rgb(9, 148, 247), #cb3b3b);
   }
 
   #menu {
     margin-top: 16px;
-    display: block; 
+    display: block;
     width: 32px;
   }
 
-  .menu-div{
+  .menu-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .logo{
+  .logo {
     background-image: url(img/UPPEr2.png);
     background-size: 100% 100%;
     flex-direction: column;
   }
 
-  .logo button{
+  .logo button {
     margin-bottom: 16px;
   }
 
-  .logo img{
+  .logo img {
     width: 60%;
   }
-  
-  .donate{
+
+  .donate {
     width: 60%;
     font-size: 1.5rem;
   }
 
-  img{
+  img {
     width: 80vw;
   }
 
-  .picture{
+  .picture {
     flex-direction: column;
     background-color: #202020;
   }
 
-  .picture img{
+  .picture img {
     height: 20vh;
     width: auto;
   }
 
-  .picture h1{
+  .picture h1 {
     width: 80%;
     text-align: center;
   }
 
-  #sevengoals img{
+  #sevengoals img {
     height: auto;
     width: 80vw;
- 
-
   }
 
-  #sevengoals{
+  #sevengoals {
     justify-content: flex-start;
   }
 
-  #about{
+  #about {
     flex-direction: column;
     align-items: center;
   }
 
-  #about img{
+  #about img {
     height: 20vh;
     width: auto;
   }
 
-  .about-text{
+  .about-text {
     width: 75%;
     justify-content: center;
   }
 
-.about-text p{
-font-size: 1.5rem;
-margin-left: 10px;
-}
+  .about-text p {
+    font-size: 1.5rem;
+    margin-left: 10px;
+  }
 
-  .foundation{
+  .foundation {
     flex-direction: column;
     width: 90%;
     gap: 16px;
   }
 
-  .foundation h1{
+  .foundation h1 {
     font-size: 2rem;
     text-align: center;
   }
 
-  .foundation-text{
+  .foundation-text {
     width: 75%;
   }
 
-  .foundation h2{
+  .foundation h2 {
     text-align: center;
   }
 
-  .cta{
+  .cta {
     flex-direction: column-reverse;
     height: 30vh;
   }
 
-  .cta h1{
+  .cta h1 {
     font-size: 2rem;
     width: 80%;
   }
 
-  #contact{
+  #contact {
     flex-direction: column;
   }
 
-  .reachout p{
+  .reachout p {
     font-size: 1rem;
   }
 }
