@@ -56,6 +56,7 @@ p{
   width: 400px;
   height: 80px;
   font-size: 3rem;
+  display: none;
 }
 
 button{
@@ -65,10 +66,26 @@ button{
   width: 10rem;
   border-radius: 3rem;
   color: #f5f5f5;
+
+}
+
+.picture-combine{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 96px;
+}
+
+.socials img:hover{
+  filter: invert(50%);
+  cursor: pointer;
 }
 
 button:hover{
   background-color: #a40f0f;
+  box-shadow: 0px 0px black;
 }
 
 .logo{
@@ -148,6 +165,7 @@ a.button {
   justify-content: space-around;
   margin: 16px;
   align-items: center;
+
 }
 
 .cta{
@@ -187,13 +205,44 @@ a.button {
   justify-content: space-evenly;
 }
 
+.donation{
+  height: 50vh;
+  width: 40vw;
+  border-radius: 2rem;
+}
+
+.foundation-text{
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  gap: 1rem;
+}
+
 /* Media Query */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
 
   .hero{
     background-image: none;
   }
+
+  button{
+    box-shadow: 0px 0px black;
+  }
+
+.donate{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}  
+
+.picture-combine{
+  position: static;
+}
+
+iframe{
+  display: none;
+}
 
   nav{
     /* margin-bottom: 16px; */
@@ -259,7 +308,12 @@ a.button {
   #sevengoals img{
     height: auto;
     width: 80vw;
+ 
 
+  }
+
+  #sevengoals{
+    justify-content: flex-start;
   }
 
   #about{
@@ -273,7 +327,7 @@ a.button {
   }
 
   .about-text{
-    width: 100%;
+    width: 75%;
     justify-content: center;
   }
 
@@ -291,6 +345,10 @@ margin-left: 10px;
   .foundation h1{
     font-size: 2rem;
     text-align: center;
+  }
+
+  .foundation-text{
+    width: 75%;
   }
 
   .foundation h2{
