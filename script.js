@@ -1,5 +1,5 @@
 // Script to show menu when hamburger menu is pressed
-const body = document.querySelector("body")
+const body = document.querySelector("body");
 
 function showMenu() {
   const menuBtn = document.getElementById("menu");
@@ -9,6 +9,5 @@ function showMenu() {
     navMenu.classList.toggle("show");
   });
 }
-
 
 showMenu();
