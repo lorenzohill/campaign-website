@@ -243,15 +243,16 @@ nav button {
     gap: 2px;
     flex-direction: column;
     align-items: center;
-    background-color: #101010a7;
+    background-color: #101010cd;
     position: absolute;
     border-radius: 16px;
     width: 45%;
-    left: -1rem;
+    left: 25%;
+    top: 3rem;
   }
 
   nav button{
-    background-color: #a40f0fa7;
+    background-color: #a40f0fe0;
   }
   
 
