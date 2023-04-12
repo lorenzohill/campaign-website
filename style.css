@@ -11,6 +11,10 @@ h1 {
 
 /* Show Menu */
 
+body:nth-child(even){
+  background-color: #101010;
+}
+
 .show {
   display: flex !important;
 }
@@ -124,7 +128,6 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #101010;
 }
 
 .sevengoals img {
