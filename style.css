@@ -222,6 +222,11 @@ nav button {
     background-image: none;
   }
 
+  p{
+    font-size: 1rem;
+  }
+
+
   button {
     box-shadow: 0px 0px black;
   }
