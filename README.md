@@ -1,6 +1,8 @@
 # campaign-website
 Example campaign-website
 
+Live Site: https://lorenzohill.github.io/campaign-website/
+
 ## Goals
 Make an accessible website for Colby Connerly's Campaign.
 
