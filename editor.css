@@ -1,0 +1,32 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(img/UPPEr2.png);
+  background-repeat: no-repeat;
+}
+
+.test{
+  padding: 3rem;
+  background-color: tomato;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3rem;
+
+}
+
+button{
+  margin-top: 1rem;
+}
+
+input, textarea{
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 1rem;
+}
+
+label{
+  margin-top: 1rem;
+}
