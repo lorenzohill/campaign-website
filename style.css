@@ -71,13 +71,17 @@ p {
   display: none;
 }
 
-button {
+a {
   border: 0px;
   background-color: #b81010;
   height: 3rem;
   width: 10rem;
   border-radius: 3rem;
   color: #f5f5f5;
+display: flex;
+justify-content: center;
+align-items: center;
+  cursor: pointer;
 }
 
 /* Div for the Picture and Slogan in hero section */
@@ -96,11 +100,11 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+a:hover {
   background-color: #a40f0f;
   box-shadow: 0px 0px black;
 }
-
+ 
 .logo {
   display: flex;
   align-items: center;
@@ -145,7 +149,7 @@ nav {
   gap: 16px;
 }
 
-nav button {
+nav a {
   margin-top: 10px;
 }
 
@@ -153,7 +157,9 @@ nav button {
   display: flex;
   justify-content: space-around;
   background-color: #202020;
+  flex: 1
 }
+
 
 .about-text {
   display: flex;
@@ -217,7 +223,26 @@ nav button {
   flex-direction: column;
   width: 75%;
   gap: 1rem;
+  flex-wrap: wrap;
 }
+
+@media screen and (max-width: 1500px) {
+  #about{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-text{width: 80%;}
+  .foundation{    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+}
+
 
 /* Media Query for mobile devices */
 
@@ -226,7 +251,7 @@ nav button {
     background-image: none;
   }
 
-  button {
+  a {
     box-shadow: 0px 0px black;
   }
 
@@ -260,7 +285,7 @@ nav button {
     top: 3rem;
   }
 
-  nav button{
+  nav a{
     background-color: #a40f0fe0;
   }
   
@@ -284,7 +309,7 @@ nav button {
     flex-direction: column;
   }
 
-  .logo button {
+  .logo a {
     margin-bottom: 16px;
   }
 
@@ -369,7 +394,7 @@ nav button {
     height: 30vh;
   }
 
-  .cta h1 {
+  .cta h2 {
     font-size: 2rem;
     width: 80%;
   }
