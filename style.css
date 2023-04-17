@@ -176,6 +176,10 @@ nav a {
   align-items: center;
 }
 
+.smaller{
+  font-size: 1.3rem;
+}
+
 .cta {
   display: flex;
   flex-direction: row-reverse;
@@ -249,6 +253,7 @@ nav a {
 @media screen and (max-width: 1000px) {
   .hero {
     background-image: none;
+    padding: 0;
   }
 
   a {
@@ -346,9 +351,6 @@ nav a {
     width: 80vw;
   }
 
-  #sevengoals {
-    justify-content: flex-start;
-  }
 
   #about {
     flex-direction: column;
