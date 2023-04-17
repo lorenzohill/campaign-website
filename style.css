@@ -11,7 +11,7 @@ h1 {
 
 /* Show Menu */
 
-body:nth-child(even){
+body:nth-child(odd){
   background-color: #101010;
 }
 
@@ -95,6 +95,20 @@ align-items: center;
   bottom: 96px;
 }
 
+.formBtn{
+  display: none;
+}
+
+.picture-combine img{
+  width: 40%;
+}
+
+.donateBtn{
+  width: 40rem;
+height: 10rem;
+font-size: 2rem;
+}
+
 .socials img:hover {
   filter: invert(50%);
   cursor: pointer;
@@ -136,9 +150,10 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 2rem;
 }
 
-.sevengoals img {
+#sevengoals img {
   border-radius: 2rem;
   height: 100vh;
 }
@@ -172,8 +187,9 @@ nav a {
 .foundation {
   display: flex;
   justify-content: space-around;
-  margin: 16px;
+  padding: 1rem;
   align-items: center;
+  background-color: #202020;
 }
 
 .smaller{
@@ -222,6 +238,12 @@ nav a {
   border-radius: 2rem;
 }
 
+.form {
+  height: 50vh;
+  width: 40vw;
+  border-radius: 2rem;
+}
+
 .foundation-text {
   display: flex;
   flex-direction: column;
@@ -264,6 +286,14 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .formBtn{
+    display: flex;
+    text-align: center;
+    height: 4rem;
+    width: 12rem;
+    padding: 1rem;
   }
 
 /* Div for the Picture and Slogan in hero section */
@@ -327,6 +357,12 @@ nav a {
     font-size: 1.5rem;
   }
 
+  .donateBtn{
+    width: 10rem;
+  height: 3rem;
+  font-size: 1rem;
+  }
+
   img {
     width: 80vw;
   }
@@ -344,6 +380,10 @@ nav a {
   .picture h1 {
     width: 80%;
     text-align: center;
+  }
+
+  #sevengoals{
+    flex-direction: column;
   }
 
   #sevengoals img {
