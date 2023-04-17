@@ -362,6 +362,15 @@ nav a {
     width: auto;
   }
 
+  .cta h2{
+    text-align: center;
+  }
+
+  .cta{
+    padding: 1rem;
+    gap: 1rem;
+  }
+
   .about-text {
     width: 75%;
     justify-content: center;
