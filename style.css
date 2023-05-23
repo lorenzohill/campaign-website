@@ -95,6 +95,10 @@ align-items: center;
   bottom: 96px;
 }
 
+.scroll{
+  text-align: center;
+}
+
 .formBtn{
   display: none;
 }
@@ -385,6 +389,7 @@ nav a {
 
   #sevengoals{
     flex-direction: column;
+    gap: 1rem;
   }
 
   #sevengoals img {
@@ -393,7 +398,7 @@ nav a {
   }
 
 
-  #about {
+  #about {scroll
     flex-direction: column;
     align-items: center;
   }
@@ -457,5 +462,9 @@ nav a {
 
   .reachout p {
     font-size: 1rem;
+  }
+
+  .scroll{
+    display: none;
   }
 }
